@@ -1,0 +1,13 @@
+# Node.js dependencies (install via npm or yarn)
+@truffle/contract@^4.3.0    # For interacting with the smart contract
+web3@^1.8.0                 # Web3.js for blockchain communication
+# Note: Run 'npm install' with package.json to install these
+
+# Python dependencies (install via pip)
+trufflehog==3.0.2           # For security auditing of smart contracts (optional)
+pytest==7.4.0               # For Python-based testing if needed
+web3.py==6.0.0              # Python Web3 library for blockchain interaction (optional)
+
+# Development tools
+node>=16.0.0                # Ensure Node.js version compatibility
+python>=3.9                 # Minimum Python version
